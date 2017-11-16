@@ -6,4 +6,12 @@
 <h1>
 UnPark!!
 </h1>
+
+{% csrf_token %}
+<p>Start time: {{bill.start_time}}</p>
+<p>End time: {{bill.endtime}}</p>
+<p>Total time: {{bill.totaltime}}</p>
+<p>Total cost: {{bill.totalcost}}</p>
+<p>Platform number: {{bill.pnum}} </p>
+</body>
 </html>
